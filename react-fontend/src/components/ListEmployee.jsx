@@ -17,6 +17,7 @@ class Employees extends Component {
     EmployeeService.getEmployees().then((responese) =>{
       this.setState({employess: responese.data})
     });
+    
   }
   render() {
     return (

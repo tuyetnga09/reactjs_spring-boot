@@ -1,14 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-import Employees from './components/ListEmployee';
+import React from "react";
+import "./App.css";
+import { BrowserRouter  as Router, Route, Switch } from "react-router-dom";
+import Employees from "./components/ListEmployee";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="container">
-      <Employees/>
-    
+    <div>
+        <Router>
+              <Header />
+                <div className="container">
+                    <Switch> 
+                          <Route path="/" exact component={Employees} />
+                          <Route path="/employees" component={Employees} />                      
+                    </Switch>
+                </div>
+              <Footer />
+        </Router>
     </div>
   );
 }
 
 export default App;
+
