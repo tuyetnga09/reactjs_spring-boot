@@ -31,12 +31,12 @@ class Employees extends Component {
       <div>
         <h2 className="text-center">List Employee</h2>
 
-        <button class="btn btn-success"onClick={this.addEmployee}>
+        <button className="btn btn-success"onClick={this.addEmployee}>
           Add Employee
         </button>
 
         <div className="row">
-          <table class="table table-striped table-bordered">
+          <table className="table table-striped table-bordered">
             <thead>
               <tr>
                 <th scope="col">#</th>

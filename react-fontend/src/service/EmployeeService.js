@@ -4,11 +4,16 @@
 import axios from "axios";
 const EMPLOYEE_API_URL = "http://localhost:8080/api/example/employees";
 
-// get all employees
 class EmployeeService {
+  // get all employees
   getEmployees() {
     return axios.get(EMPLOYEE_API_URL);
   }
+  //create employee
+  createEmployee(employee){
+    return axios.post(EMPLOYEE_API_URL, employee);
+  }
+
 }
 //sử dụng export default để xuất đối tượng EmployeeService như một đối tượng duy nhất từ module này
 export default new EmployeeService();

@@ -8,9 +8,9 @@ class Footer extends Component {
     return (
       <div>
     
-        <div class="copyright_section">
-        <div class="container">
-          <p class="copyright">2023 All Rights Reserved. <a href="https://html.design">Free html  Templates</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a></p>
+        <div className="copyright_section">
+        <div className="container">
+          <p className="copyright">2023 All Rights Reserved. <a href="https://html.design">Free html  Templates</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a></p>
         </div>
       </div>
       </div>

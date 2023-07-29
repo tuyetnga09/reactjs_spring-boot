@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import EmployeeService from "../service/EmployeeService";
 
 class CreateEmployee extends Component {
   constructor(props) {
@@ -9,22 +10,38 @@ class CreateEmployee extends Component {
       emailId: "",
     };
     this.changeFirstNameHandler = this.changeFirstNameHandler.bind(this);
-    this.changeFirstNameHandler = this.changeFirstNameHandler.bind(this);
+    this.changeLastNameHandler = this.changeLastNameHandler.bind(this);
     this.changeEmailHandler = this.changeEmailHandler.bind(this);
     this.saveEmployee = this.saveEmployee.bind(this);
-
   }
-  changeFirstNameHandler = (event) => {
+
+  changeFirstNameHandler(event) {
     this.setState({ firstName: event.target.value });
-  };
-  changeLastNameHandler = (event) => {
+  }
+
+  changeLastNameHandler(event) {
     this.setState({ lastName: event.target.value });
-  };
-  changeEmailHandler = (event) => {
-    this.setState({ email: event.target.value });
-  };
-  saveEmployee = (e) =>{
+  }
+
+  changeEmailHandler(event) {
+    this.setState({ emailId: event.target.value });
+  }
+
+  saveEmployee = (e) => {
     e.preventDefault();
+    let employee = {
+      firstName: this.state.firstName,
+      lastName: this.state.lastName,
+      emailId: this.state.emailId,
+    };
+    console.log('employee =>' + JSON.stringify(employee));
+    EmployeeService.createEmployee(employee).then(res => {
+      this.props.history.push("/employees")
+    });
+  };
+  
+  cancel() {
+    this.props.history.push("/employees");
   }
 
   render() {
@@ -73,10 +90,11 @@ class CreateEmployee extends Component {
                   >
                     Save
                   </button>
+
                   <button
-                    class="btn btn-danger"
+                    className="btn btn-danger"
                     onClick={this.cancel.bind(this)}
-                    style={{marginLeft: "10px" }}
+                    style={{ marginLeft: "10px" }}
                   >
                     Cancel
                   </button>
