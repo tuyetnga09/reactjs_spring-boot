@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c3026f1-1e31-49a1-b4d7-728b240d768a" name="Changes" comment="add local" />
+    <list default="true" id="1c3026f1-1e31-49a1-b4d7-728b240d768a" name="Changes" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +54,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;28e202013b6f4ddb50d2565ac9017dcd&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -85,7 +86,10 @@
       <workItem from="1689352525333" duration="632000" />
       <workItem from="1689433625947" duration="283000" />
       <workItem from="1689434762568" duration="1173000" />
-      <workItem from="1689435974096" duration="389000" />
+      <workItem from="1689435974096" duration="5363000" />
+      <workItem from="1689694822374" duration="4016000" />
+      <workItem from="1689783761104" duration="5014000" />
+      <workItem from="1690468095526" duration="56819000" />
     </task>
     <task id="LOCAL-00001" summary="add local">
       <created>1689436361098</created>
@@ -94,7 +98,63 @@
       <option name="project" value="LOCAL" />
       <updated>1689436361099</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add local">
+      <created>1689957198901</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689957198901</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add">
+      <created>1689957291422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689957291422</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add">
+      <created>1689957519034</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689957519034</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add">
+      <created>1689957529131</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689957529131</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <created>1690816518130</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690816518130</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <created>1690816528367</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690816528367</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <created>1690816542474</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690816542474</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update">
+      <created>1690816850609</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690816850609</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +163,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="display" />
     <MESSAGE value="add local" />
-    <option name="LAST_COMMIT_MESSAGE" value="add local" />
+    <MESSAGE value="add" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
